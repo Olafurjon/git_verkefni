@@ -1,0 +1,39 @@
+Git Spurningar og svör
+1. Hvað gera eftirfarandi Linux skipanir?
+	cd = Changes directory, changes where i am located, if i wanted to work from the c:drive i would do cd c:\
+	cd ~ jumps right back to the homedirectory so i dont have to type it, in this case the h/ drive
+	ls Lists everething on my current location, for example if i do ls here i will se the git_svor.txt and the readme
+	pwd lists the current path of the folder i am in $ pwd /h/git_verkefni
+	mkdir creates a directory or a folder
+    
+2. Hvað gera eftirfarandi git skipanir og hvers vegna eru þær gagnlegar?
+	git clone allows me to clona a repository into a new directory, could be useful if i just want a personal backup or if i am going to ma similar project 
+	git log shows me the log basically edits and changes made to the repository, very useful i assume when working in groups so you can see who did what and such
+	git status checks the status and you see what files will be affected, very useful for reviewing before making big changes
+	git diff shows me what has changed and the difference can be cool to use
+	git checkout not sure somwthing about switching branches
+    
+3. Hver er munurinn á eftirfarandi git skipunum:
+	a) git diff shows difference on the current document and the one in the repository
+	b) git diff --staged shows the difference on the current documents you staged ,and the one in the repository if you have bee using the --staged on anther commands
+	c) git diff commit1 commit2 here you can seem the difference between two commits like if i wanted to see the difference from 1.spurning and 1.spurning and svor i would do this
+    
+
+4. 	Hvað er útgáfustýring (e.version control)? 
+    it keeps control of the the changes and makes that into versions so you can see different versions of your project
+    https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control
+    
+5.	Hverjir eru helstu kostir við að nota GIT?
+    Well for one many people can work at once and get most recent updates and just add theyr stuff to it and then commit again and you can backtrack and review everything also this is kindoff backup for your project so thats very nice
+    
+6.	Hversu oft telur þú að eigi að gera commit í verkefni, rökstuddu?
+    Well bascially every time i change something on a regular basics, like after i completed something big, for example in this project i commit after every insertion of a question and an answer, so thats good, but when working with a code it would be too much to commit after every single line or code put in so i would just do it, after a while or after something big i guess but still regurlarly so its easier to backtrack
+    
+7.  Hvað er "Working directory"?" "Staging area"?" og "Repository" í GIT?
+    Working area is the Live project that im literally working in and making changes to, then the staging area is before uploading it to the repository where it has not been fullu "AccepteD" and then the Repository is the projects home in Git after it has been worked on and approved its pushed there 
+    
+8.	Hvenær er sniðugt að nota greinar (branches)?
+    Basically if you want to do a major change to your work but not sure how it will turn out you can make a branch, a branch is like a new repository with its new history and commits and edits so you can fuck it up there and if you like the results you can merge it togethere or do what you want
+    
+    
+    Ólafur Jón Valgeirsson
